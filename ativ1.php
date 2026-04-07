@@ -15,11 +15,16 @@
 
     <input type="text"
         name="nome"
-        placeholder="Seu Nome" required>
+        placeholder="Seu Nome:" required>
     <br>
     <input type="number"
         name="idade"
-        placeholder="Sua Idade" required>
+        placeholder="Sua Idade:" required>
+    <br>
+    <input type="email"
+        id="email"
+        name="email"
+        placeholder="Seu E-mail:" required>
     <br>
     <button type="submit">
         Enviar
